@@ -53,3 +53,4 @@ g++ -O3 -std=c++17 -pthread \
 - The simulator requires Boost headers (for `boost::multiprecision` and `boost::rational`). `setup_codex.sh` will download a local header-only copy if they are not installed system-wide. If external downloads are blocked, place a Boost tarball on Google Drive and set `BOOST_DRIVE_ID` so the script can fetch it.
 - The simulator uses all 29 Vedic sutras (16 main + 13 sub-sutras) to generate classical outputs that parameterize a quantum state-vector simulation.
 - The serial, concurrent, and parallel execution modes are all reported to the same JSON output.
+
